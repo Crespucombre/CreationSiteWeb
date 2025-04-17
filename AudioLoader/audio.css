@@ -1,0 +1,32 @@
+body {
+    background-image: url("0464060001454269800.jpg");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    /* background: #f0f2f5; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .audio-player {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .audio-player h2 {
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  audio {
+    width: 100%;
+    outline: none;
+  }
+  

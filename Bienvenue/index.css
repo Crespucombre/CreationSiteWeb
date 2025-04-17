@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://images.unsplash.com/photo-1597329564004-2079b0706c03?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card {
+    background-color: white;
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    width: 90%;
+    max-width: 500px;
+    padding: 20px;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 10px; /* ajuste ici comme tu veux */
+  }
+  
+  
+  .card header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+  }
+  
+  .nav-links a {
+    gap: 30px;
+    margin-right: 15px;
+    text-decoration: none;
+    color: #0077cc;
+    font-weight: bold;
+  }
+  
+  .search-bar input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .search-bar button {
+    padding: 5px 10px;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  
+  .card h1 {
+    text-align: center;
+    font-size: 1.8em;
+    color: #333;
+  }
+  

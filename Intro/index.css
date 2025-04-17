@@ -1,0 +1,14 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: red;
+}
+
+input {
+    margin: 10px;
+}
